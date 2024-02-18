@@ -14,7 +14,7 @@ Note: our model is trained on NVIDIA GPU (A100).
 
 - train.py is the entry point to the code.
 - main.py is the main function of our model.
-- networks/xxx.py is the network structure of our method (e.g. resnet_add_gcn.py, mobilenet_v2_add_gcn.py, vit_add_gcn.py and so on).
+- models/xxx.py is the network structure of our method (e.g. resnet_add_gcn.py, mobilenet_v2_add_gcn.py, vit_add_gcn.py and so on).
 - opts.py is all the necessary parameters for our method (e.g. comprehensive output factor, learning rate and data loading path and so on).
 - engine.py contains the construction of the different correlation matrices (e.g. SCM, HKCM, Binary HEKCM and Re-weighted HEKCM).
 - gcn_layers.py is the network structure of GCN.
