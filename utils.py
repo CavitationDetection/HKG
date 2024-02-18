@@ -1,10 +1,3 @@
-'''
-Description: 
-Author: Yu Sha
-Date: 2022-05-09 17:41:12
-LastEditors: Yu Sha
-LastEditTime: 2023-10-25 15:49:22
-'''
 import os
 import torch
 import numpy as np
@@ -98,17 +91,6 @@ def log_metrics_to_file(metrics, filename):
     log_file.write("-" * 40 + "\n")
     log_file.close()
 
-
-import copy
-import random
-
-def trans_list(original_list, modification_probability, replacement_range):
-    copied_list = copy.deepcopy(original_list)
-    for i in range(len(copied_list)):
-        if random.random() < modification_probability:
-            new_value = random.randint(*replacement_range)
-            copied_list[i] = new_value
-    return copied_list
 
 
 
