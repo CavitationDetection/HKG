@@ -14,8 +14,11 @@ Note: our model is trained on NVIDIA GPU (A100).
 
 - train.py is the entry point to the code.
 - main.py is the main function of our model.
-- network.py is the network structure of local generator, regional generator and the discirminator of our method.
+- networks/xxx.py is the network structure of our method (e.g. resnet_add_gcn.py, mobilenet_v2_add_gcn.py, vit_add_gcn.py and so on).
 - opts.py is all the necessary parameters for our method (e.g. comprehensive output factor, learning rate and data loading path and so on).
+- engine.py contains the construction of the different correlation matrices (e.g. SCM, HKCM, Binary HEKCM and Re-weighted HEKCM).
+- gcn_layers.py is the network structure of GCN.
+- train/test_data_loader.py represents the loading of training and test datasets.
 - Execute train.py
 
 Note that, for the current version. test.py is nor required as the code calls the test function every iteration from within to visualize the performance difference between the baseline and the GRLNet. However, we also provide a separate test.py file for visualising the test set. For that, the instructions can be found below.
