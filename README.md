@@ -1,5 +1,4 @@
-# Regional-Local Adversarially Learned One-Class Classifier Anomalous Sound Detection in Global Long-Term Space 
-[[Project Page]](https://dl.acm.org/doi/10.1145/3534678.3539133) [[arXiv]](https://arxiv.org/abs/2202.13245)
+# Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems 
 
 ![img1](https://github.com/CavitationDetection/GRLNet/blob/main/Image/framework.png)
 
