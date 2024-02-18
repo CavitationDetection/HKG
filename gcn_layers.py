@@ -1,10 +1,3 @@
-'''
-Description: Build graph convolution network
-Author: Yu Sha
-Date: 2022-04-02 18:52:39
-LastEditors: Yu Sha
-LastEditTime: 2023-10-14 15:29:50
-'''
 import math
 import torch
 import torch.nn as nn
