@@ -1,6 +1,6 @@
 # Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems 
 
-![img1](https://github.com/CavitationDetection/GRLNet/blob/main/Image/framework.png)
+![framework](https://github.com/CavitationDetection/HKG/blob/main/images/framework.png)
 
 ## Requirements
 
