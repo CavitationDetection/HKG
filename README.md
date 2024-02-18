@@ -23,10 +23,8 @@ Note: our model is trained on NVIDIA GPU (A100).
 - generate_word_embedding.py is the generation of word embeddings for the target classes (e.g. GloVe, GoogleNews, FastText and so on).
 - Execute train.py
 
-Note that, for the current version. test.py is nor required as the code calls the test function every iteration from within to visualize the performance difference between the baseline and the GRLNet. However, we also provide a separate test.py file for visualising the test set. For that, the instructions can be found below.
-
 - Download datasets from [here](https://drive.google.com/drive/folders/1eejPrqM2hWPxSfb0gUhu-F4FD0rhO7sp?usp=sharing) and place test signals in the subdirectories of ./Data/Test/
-- run test.py
+
 
 
 ## Updates
