@@ -30,7 +30,7 @@ For the three private real-world cavitation datasets provided by SAMSON AG (Cavi
 |**HKG-DeneseNet169**|<center>256<sup>2</sup></center>|92.69|88.85|92.48|90.46|
 |**HKG-Swin-B-4-12** |<center>256<sup>2</sup></center>|**93.18**|**89.58**|**93.40**|**91.27**|
 
-**Table 2: Results of different evaluation metrics on Cavitation-Long.**
+**Table 2: Results of different evaluation metrics on Cavitation-Noise.**
 |Methods|<center>Image size|<center>Acc</center>|<center>Pre</center>|<center>Rec</center>|<center>F1</center>|
 |-|-|-|-|-|-|
 |LiftingNet|<center>256<sup>2</sup></center>|95.86|94.62|95.84|95.20|
