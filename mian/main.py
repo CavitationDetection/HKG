@@ -1,10 +1,3 @@
-'''
-Description: 
-Author: Yu Sha
-Date: 2023-04-07 08:54:38
-LastEditTime: 2023-10-26 11:54:00
-LastEditors: Yu Sha
-'''
 import torch
 import torch.nn.functional as F
 import torchvision.transforms as transforms
