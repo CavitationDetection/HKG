@@ -1,10 +1,3 @@
-'''
-Description: The proposed method's parameters
-Author: Yu Sha
-Date: 2022-04-25 10:26:15
-LastEditors: Yu Sha
-LastEditTime: 2023-10-26 10:47:00
-'''
 import argparse
 
 def parse_opts():
