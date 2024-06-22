@@ -30,6 +30,8 @@ Download datasets from [here](https://drive.google.com/drive/folders/1eejPrqM2hW
 
 
 ## Updates
+[17.05.2024] Our manuscript has been accepted for the 30th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (ACM SIGKDD2024).
+
 [08.02.2024] Our manuscript was submitted to the 30TH ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (ACM SIGKDD2024).
 
 [18.02.2024] For the time being, some codes are being made available and the full codes will be released when the manuscript is accepted.
