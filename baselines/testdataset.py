@@ -1,10 +1,3 @@
-'''
-Descripttion: 
-Author: Yu Sha
-Date: 2021-01-11 09:13:30
-LastEditors: Yu Sha
-LastEditTime: 2021-01-25 14:30:10
-'''
 import torch
 import pandas as pd
 import numpy as np
