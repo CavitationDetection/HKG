@@ -5,10 +5,6 @@ Description: Get our data's word embedding, in here we use fasttext method.
                   ---cavitaion--incipient
                               --constant
                               --choked flow
-Author: Yu Sha
-Date: 2023-04-07 08:54:38
-LastEditTime: 2023-10-25 11:37:25
-LastEditors: Yu Sha
 '''
 import torch
 import torchtext.vocab as vocab
