@@ -1,10 +1,3 @@
-'''
-Description: our dataset
-Author: Yu Sha
-Date: 2022-04-25 13:47:23
-LastEditors: Yu Sha
-LastEditTime: 2023-10-26 11:49:49
-'''
 import pandas as pd
 import numpy as np
 import torch
