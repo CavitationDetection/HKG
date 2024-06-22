@@ -8,7 +8,7 @@
 - torch 1.9.1
 - torchvision 0.10.1
 
-Note: our model is trained on NVIDIA GPU (A100).
+Note: our model is trained on a SLURM-managed server node with 2011G RAM, 128-core CPUs and eight NVIDIA A100.
 
 ## Code execution
 
