@@ -1,10 +1,3 @@
-'''
-Description: Representation learning (DenseNet)+ Graph Convolutional Network (GCN)
-Author: Yu Sha
-Date: 2022-04-02 19:30:52
-LastEditors: Yu Sha
-LastEditTime: 2023-10-26 10:45:22
-'''
 import math
 import torch
 import torch.nn as nn
