@@ -5,7 +5,7 @@ import pickle
 
 class RelationCalculator:
     def __init__(self):
-        self.classes = 5
+        self.classes = 4
         self.input_path = './multi_label/generate_adj/test_split_233472_20.csv'
         self.output_path = './utils/cavitation_test_adj/cavitation_test_split_233472_20_adj.pkl'
         self.adj_matrix = np.zeros(shape = (self.classes, self.classes))
