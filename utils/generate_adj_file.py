@@ -1,10 +1,3 @@
-'''
-Description: Get adj file, which is equal to A. The adj file that we need to count the number of occurrences of each pair of labels in our dataset.
-Author: Yu Sha
-Date: 2022-04-02 20:05:45
-LastEditors: Yu Sha
-LastEditTime: 2023-10-17 22:30:00
-'''
 import numpy as np
 import pandas as pd
 import pickle
