@@ -42,6 +42,26 @@ For any queries about codes, please feel free to contact YuSha et al. through yu
 
 ## Citation
 If you find our work useful in your research, please consider citing:
+```
+@inproceedings{10.1145/3637528.3671610,
+author = {Sha, Yu and Gou, Shuiping and Liu, Bo and Faber, Johannes and Liu, Ningtao and Schramm, Stefan and Stoecker, Horst and Steckenreiter, Thomas and Vnucec, Domagoj and Wetzstein, Nadine and Widl, Andreas and Zhou, Kai},
+title = {Hierarchical Knowledge Guided Fault Intensity Diagnosis of Complex Industrial Systems},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671610},
+doi = {10.1145/3637528.3671610},
+abstract = {Fault intensity diagnosis (FID) plays a pivotal role in monitoring and maintaining mechanical devices within complex industrial systems. As current FID methods are based on chain of thought without considering dependencies among target classes. To capture and explore dependencies, we propose a <u>h</u>ierarchical <u>k</u>nowledge <u>g</u>uided fault intensity diagnosis framework (HKG) inspired by the tree of thought, which is amenable to any representation learning methods. The HKG uses graph convolutional networks to map the hierarchical topological graph of class representations into a set of interdependent global hierarchical classifiers, where each node is denoted by word embeddings of a class. These global hierarchical classifiers are applied to learned deep features extracted by representation learning, allowing the entire model to be end-to-end learnable. In addition, we develop a re-weighted hierarchical knowledge correlation matrix (Re-HKCM) scheme by embedding inter-class hierarchical knowledge into a data-driven statistical correlation matrix (SCM) which effectively guides the information sharing of nodes in graphical convolutional neural networks and avoids over-smoothing issues. The Re-HKCM is derived from the SCM through a series of mathematical transformations. Extensive experiments are performed on four real-world datasets from different industrial domains (three cavitation datasets from SAMSON AG and one existing publicly) for FID, all showing superior results and outperform recent state-of-the-art FID methods.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {5657–5668},
+numpages = {12},
+keywords = {acoustic signals, cavitation intensity diagnosis, hierarchical classification, hierarchical knowledge, representation learning and graph convolutional network},
+location = {Barcelona, Spain},
+series = {KDD '24}
+}
+```
+
 
 
 
